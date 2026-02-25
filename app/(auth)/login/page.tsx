@@ -163,7 +163,7 @@ const handleLogin = async (e: React.FormEvent) => {
             <div className="mt-8 text-center text-sm text-muted-foreground">
               Don’t have an account?{" "}
               <Link
-                href="/signup"
+                href="/register"
                 className="text-[var(--primary)] font-medium hover:underline"
               >
                 Sign Up

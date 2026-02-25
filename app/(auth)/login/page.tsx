@@ -96,10 +96,10 @@ const handleLogin = async (e: React.FormEvent) => {
             <form onSubmit={handleLogin} className="space-y-6">
 
               <div className="space-y-2">
-                <Label>Mobile Number</Label>
+                <Label>Email</Label>
                 <Input
                   type="tel"
-                  placeholder="Enter your mobile number"
+                  placeholder="enter your email"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   className="h-12 bg-[var(--secondary-bg)]"

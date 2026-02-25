@@ -4,8 +4,7 @@ export default function HomePage() {
   return (
     <div className="flex gap-4 p-4">
       {/* First Component */}
-      {/* <OddsTable /> */}
-      <p>This is home page</p>
+      <OddsTable />
 
       {/* You can later add Sidebar or Betslip here */}
       {/* <Sidebar /> */}

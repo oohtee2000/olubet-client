@@ -37,7 +37,7 @@ export default function TopNavbar() {
             className="text-2xl font-bold italic tracking-tight cursor-pointer"
             style={{ color: COLORS.primary }}
           >
-            BetZone
+            Olubet
           </h1>
         </Link>
       </div>
